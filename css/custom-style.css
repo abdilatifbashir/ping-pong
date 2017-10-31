@@ -3,7 +3,8 @@ body{background-image:url("../images/sky-background.jpg");
 	background-size: cover;}
 #background-header{background-image: url("../images/image-sky-background2.jpeg");
 	background-size:cover;
-	height:300px;}
+	height:300px;
+	height: 350px;}
 .jubmbo-section-text{color: white;
 					text-align: center;}
 #form-section{text-align: center;
@@ -12,3 +13,9 @@ body{background-image:url("../images/sky-background.jpg");
 			height: 40px;
 			vertical-align: middle;
 			}
+#modal-section{
+	position: relative;
+  top:30px;
+  left: 350px;
+
+}
