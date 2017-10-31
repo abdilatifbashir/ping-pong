@@ -21,10 +21,12 @@ var pingGeneratedArrays= function(userInput) {
 // jquery 
 $(document).ready(function() {
 	
-$("#myform-item").click(function(event) {
+$("#myform-item2").click(function(event) {
 		event.preventDefault();
 		//get input from user
-		var userInput = parseInt($("#myform-item").val());
+		var userInput = parseInt($("#myform-item1").val());
 		var resultOfArray = pingGeneratedArrays(userInput);
   	$("#append-list-arrays").text(resultOfArray+"<br />");
   });
+});
+
