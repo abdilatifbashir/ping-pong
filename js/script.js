@@ -17,3 +17,14 @@ var pingGeneratedArrays= function(userInput) {
 	}
 	return resultOfArray;
 }
+
+// jquery 
+$(document).ready(function() {
+	
+$("#myform-item").click(function(event) {
+		event.preventDefault();
+		//get input from user
+		var userInput = parseInt($("#myform-item").val());
+		var resultOfArray = pingGeneratedArrays(userInput);
+  	$("#append-list-arrays").text(resultOfArray+"<br />");
+  });
