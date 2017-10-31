@@ -4,3 +4,5 @@ body{background-image:url("../images/sky-background.jpg");
 #background-header{background-image: url("../images/image-sky-background2.jpeg");
 	background-size:cover;
 	height:300px;}
+.jubmbo-section-text{color: white;
+					text-align: center;}
