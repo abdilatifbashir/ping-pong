@@ -8,3 +8,7 @@ body{background-image:url("../images/sky-background.jpg");
 					text-align: center;}
 #form-section{text-align: center;
 				color: white;}
+#myform-item{width:200px;
+			height: 40px;
+			vertical-align: middle;
+			}
