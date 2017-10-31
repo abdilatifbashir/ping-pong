@@ -33,5 +33,13 @@ body{background-image:url("../images/sky-background.jpg");
 #header-style{text-align: center;}
 #modal-para{
 	color: white;
+	text-align: center;
 }
+#github-link{
+	font-famly: Courier, monospace;
+	color:black;
+
+}
+a#github-link:hover{background-color: white;}
+
 			
