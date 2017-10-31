@@ -26,7 +26,7 @@ $("#myform-item2").click(function(event) {
 		//get input from user
 		var userInput = parseInt($("#myform-item1").val());
 		var resultOfArray = pingGeneratedArrays(userInput);
-  	$("#append-list-arrays").text(resultOfArray+"<br />");
+  	$("#append-list-arrays").text(resultOfArray);
   });
 });
 
