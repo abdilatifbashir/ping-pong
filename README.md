@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Ping-Pong/number game 
 Author:abdilatif bashir[abdiladif@gmail.com]
 ## Description
